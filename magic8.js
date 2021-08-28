@@ -34,17 +34,18 @@
 
 // equality evaluations ===
 
+
 function magic8(){
   var randomNum = Math.ceil(Math.random() * 5)
   if(randomNum === 1){
-    return "Concentrate and ask again"
+    return document.getElementById("answer").innerHTML = "Concentrate and ask again"
   } else if(randomNum === 2){
-    return "Maybe"
+    return document.getElementById("answer").innerHTML = "Maybe"
   } else if(randomNum === 3){
-    return "No way jose"
+    return document.getElementById("answer").innerHTML = "No way jose"
   } else if(randomNum === 4){
-    return "Yes, 100%"
+    return document.getElementById("answer").innerHTML = "Yes, 100%"
   } else if(randomNum === 5){
-    return "I suppose"
+    return document.getElementById("answer").innerHTML = "I suppose"
   }
 }
